@@ -1,8 +1,11 @@
 package Geometry;
 
 public interface IPoint {
-    public void SetX(int x);
-    public int GetX(int x);
-    public void SetY(int y);
-    public int GetY(int y);
+    public void SetX(double x);
+
+    public void SetY(double y);
+
+    public double GetX();
+
+    public double GetY();
 }

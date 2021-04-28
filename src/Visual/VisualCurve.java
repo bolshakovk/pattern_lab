@@ -1,4 +1,13 @@
 package Visual;
 
-public abstract class VisualCurve {
+import Geometry.IPoint;
+
+import java.awt.*;
+
+public abstract class VisualCurve implements IDrawable{
+
+    @Override
+    public void Draw(Graphics g) {
+
+    }
 }
